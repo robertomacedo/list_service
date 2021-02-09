@@ -5,6 +5,6 @@ from webdev.tarefas import views
 app_name='tarefas'
 
 
-urlpatterns=[
+urlpatterns = [
     path('', views.home, name='home')
 ]
