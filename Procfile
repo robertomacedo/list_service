@@ -1,1 +1,1 @@
-web: gunicorn list_service.wsgi --log-file -
+web: gunicorn webdev.wsgi --log-file -
